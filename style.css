@@ -1,0 +1,43 @@
+#bigsquare{
+    width: 298px;
+    height: 300px;
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30%;
+    margin-top: 20%;
+}
+
+.smallsquare{
+    height: 91px;
+    width: 90px;
+    position:relative;
+    border: 5px  solid black;
+}
+
+.smallsquare svg{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    position: relative;
+    z-index: -9;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+.piece{
+
+    position: relative;
+    z-index: 10;
+}
+
+#thex{
+    width: 100px;
+    height: 100px;
+    fill: rgb(0, 73, 10);
+}
+
+#theo{
+    fill: rgb(211, 133, 30);
+}
