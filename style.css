@@ -4,8 +4,8 @@
     background-color: brown;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 30%;
-    margin-top: 20%;
+    margin: auto;
+    margin-top: 30px;
 }
 
 .smallsquare{
